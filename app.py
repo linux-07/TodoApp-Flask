@@ -97,6 +97,6 @@ def contact():
     contactInfo = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum architecto inventore eum. Omnis sapiente laudantium veniam quos ratione unde quam, nemo eaque expedita nulla eos doloribus totam voluptates illum natus possimus recusandae accusamus at dolorem magni quia. Architecto minus soluta iusto iste doloremque, eaque ducimus facilis nesciunt ab commodi magni a perferendis id ipsa ad adipisci consequatur nisi culpa molestiae ea dicta autem natus veniam! Esse accusantium veritatis optio vero magnam quas, qui modi nesciunt blanditiis praesentium repellendus magni reiciendis voluptatum ducimus quisquam incidunt doloremque rerum exercitationem minus dolore eos laborum ullam nostrum? Vero, ad sequi temporibus similique aut quisquam facilis accusantium nobis voluptatibus nostrum expedita, animi atque doloremque ea, voluptatem magnam voluptates maxime praesentium natus aspernatur! Non eligendi magnam incidunt dolore voluptatibus, aspernatur maxime doloremque distinctio laboriosam velit deleniti pariatur exercitationem sunt praesentium enim ab perspiciatis ad. Minima odit quod fugit aspernatur optio exercitationem recusandae iure praesentium labore, sint excepturi veritatis dignissimos id. Veritatis eius repellendus sequi quibusdam maiores harum aspernatur itaque fugiat voluptate nemo accusamus, aliquam ut quia autem adipisci maxime architecto inventore sunt facere, ullam rem quae labore? Voluptates obcaecati voluptatum pariatur cum quisquam quod dolor atque deleniti culpa, aspernatur asperiores veritatis rem mollitia. Provident, vel ex!"
     return render_template("contact.html", contactInfo=contactInfo)
 
-
-if __name__ == "__main__":
-    app.run(debug=True)
+# Only for development purposes
+# if __name__ == "__main__":
+#     app.run(debug=True)
