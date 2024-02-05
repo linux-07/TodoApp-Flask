@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}Todo App - Update Todo | Arnav Nagpurkar{% endblock %}
+{% block body %}
+{% include 'navbar.html' %}
+<h2 class="mt-3 mb-2">Update Todo</h2>
+<form action="/update/{{todo.snum}}" method="POST">
+    <div class="mb-3 mt-4">
+        <label for="title" class="form-label">Todo Title</label>
+        <input type="text" class="form-control" name="title" value="{{todo.title}}" id="title" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="description" class="form-label">Todo Description</label>
+        <input type="text" class="form-control" name="description" value="{{todo.description}}" id="description">
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+{% endblock body %}

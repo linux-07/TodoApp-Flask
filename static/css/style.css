@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+body {
+    background-color: rgb(61, 61, 61);
+}
+
+nav {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgb(37, 37, 37);
+    font-size: 28px;
+}
+
+nav div {
+    background-color: rgb(37, 37, 37);
+}
+
+nav ul {
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    margin-top: 15px;
+}
+
+nav ul li {
+    background-color: rgb(37, 37, 37);
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+nav ul li a {
+    background-color: rgb(37, 37, 37);
+    text-decoration: none;
+    color: white;
+    transition: color 100ms ease;
+}
+
+nav ul li a:hover {
+    color: rgb(75, 164, 243);
+}
+
+form {
+    max-width: 70vw;
+    margin: auto;
+}
+
+h2 {
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    font-size: 1.9rem;
+}
+
+h3 {
+    max-width: 70vw;
+    margin: auto;
+    color: rgb(242, 102, 102);
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+table {
+    max-width: 70vw;
+    margin: auto;
+}
+
+table td,
+table th.index {
+    position: relative;
+    top: 6px;
+}
+
+table td.exclude {
+    top: 0;
+}
+
+table thead tr th {
+    font-weight: 600;
+}
+
+.table {
+    --bs-table-bg: transparent;
+    border-color: #303132;
+    --bs-table-color: white;
+}
+
+.info {
+    margin: 10px auto;    
+    max-width: 70vw;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 735px) {
+    nav {
+        flex-direction: column;
+    }
+
+    h2,
+    h3,
+    form {
+        max-width: 95vw;
+    }
+
+    .exclude>a {
+        margin-bottom: 7px;
+    }
+
+    .exclude a {
+        min-width: 85px;
+        min-width: 85px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    nav {
+        font-size: 22px;
+    }
+}
